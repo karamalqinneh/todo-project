@@ -6,8 +6,10 @@ This is my first multi-Task project. I'm building a ToDo List Website, where the
 
 ## Task one outline
 
-Am going to bulid a two page app as illustrated in the wireframes below: 
+Am going to bulid the HTML structure of a two page app as illustrated in the wireframes below: 
 
-1. ![Home Page](./assets/homePage.png)
-2. ![About Page](./assets/aboutPage.png)
+1. 
+  ![Home Page](./assets/homePage.png)
+2. 
+ ![About Page](./assets/aboutPage.png)
 
