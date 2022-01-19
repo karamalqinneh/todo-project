@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/global.css">
     <link rel="stylesheet" href="/style/about.css">
     <title>About</title>
 </head>
 <body>
     <header>
-        <div id="logoAndName">
-            <img src="./assets/logo.png" alt="logo" width="75px" height="75px">
-            <h1>ToDo List</h1>
-        </div>
-        <nav>
+        <img src="./assets/logo.png" alt="logo" class="logo">
+        <nav class="nav-bar">
             <ul>
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
@@ -21,22 +19,31 @@
         </nav>
     </header>
     <main>
-        <section id="aboutME">
-            <img src="/assets/aboutMePhoto.jpeg" alt="A photo of the author" height="300px" width="250px">
-            <h3>Karam Al-Qinneh</h3>
-            <p>A full stack trainee developer. Currently enrolled in a JS software development bootcamp, hence I am looking forward to sharpen my skills in web development. </p>
-            <p>This is my first multi-Task project. I'm building a ToDo List Website, where the Users can display their tasks and check the status for each one.
-            </p>
+        <section id="aboutMe">
+            <img src="/assets/aboutMePhoto.jpeg" alt="A photo of the author">
+            <div class="overview-container">
+                <h3>Karam Al-Qinneh</h3>
+                <div class="description">
+                    <p>A full stack trainee developer. Currently enrolled in a JS software development bootcamp, hence I am looking forward to sharpen my skills in web development. </p>
+                    <p>This is my first multi-Task project. I'm building a ToDo List Website, where the Users can display their tasks and check the status for each one.
+                    </p>
+                </div>
+            </div>    
         </section>
         <section id="contactMe">
+            <h3>Contact me</h3>
             <form action="">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Please enter your name">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="please enter your email">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Feel free to send what ever you want"></textarea>
-                <button type="submit">Send</button>    
+                    <div class="form-containter">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Please enter your name">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="please enter your email">
+                        <label for="number">Phone</label>
+                        <input type="number" id="number" name="number" placeholder="please enter your phone number">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Feel free to send what ever you want"></textarea>
+                    </div>
+                    <button type="submit">Send</button>    
             </form>
         </section>
     </main>

@@ -1,0 +1,79 @@
+#aboutMe {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#aboutMe img {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.overview-container h3  {
+    text-align: center;
+    color: red;
+    margin-bottom: 10px;
+}
+
+.overview-container .description {
+    border: 1px solid #000;
+    width: 600px;
+    padding: 20px;
+}
+
+#contactMe {
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+#contactMe h3 {
+    margin-bottom: 30px;
+    color: #520b0b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-containter{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+form div label {
+    margin: 10px;
+}
+
+form input {
+    height: 30px;
+    width:100%;
+    text-align: center;
+
+}
+
+form textarea {
+    height: 100px;
+    width:100%;
+    text-align: center;
+}
+
+form button {
+}
+
+label {
+    margin-right: 30px;
+}
+
+form button {
+    width: 80px;
+    height: 30px;
+    background-color: rgb(165 165 241);
+    margin: 20px auto 60px auto;
+    border-style: none;
+}
