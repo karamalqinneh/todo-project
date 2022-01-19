@@ -4,17 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/global.css">
     <link rel="stylesheet" href="/style/index.css">
     <title>Home</title>
 </head>
 <body>
     
     <header>
-        <div id="logoAndName">
-            <img src="./assets/logo.png" alt="logo" width="75px" height="75px">
-            <h1>ToDo List</h1>
-        </div>
-        <nav>
+        <img src="./assets/logo.png" alt="logo" class="logo">
+        <nav class="nav-bar">
             <ul>
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="./about.html">About</a></li>
@@ -22,30 +20,31 @@
         </nav>
     </header>
     <main>
-        <form action="">
-            <input type="text" placeholder="Add to do">
-            <button type="submit">+</button>
-        </form>
-        <table style="border: gray 1px solid">
+        <h1>ToDo List</h1>
+        <table>
             <tr>
-              <th>Task</th>
+              <th>List</th>
               <th>State</th>
             </tr>
             <tr>
-              <td>To be filled dynamically..</td>
-              <td>Unfinished</td>
-              <td><button>Completed</button></td>
+              <td>Learn JS <span><input type="checkBox" checked></span>  </td>
+              <td>
+                <div class="state-box green"></div>
+              </td>
             </tr>
             <tr>
-              <td>To be filled dynamically...</td>
-              <td>Unfinished</td>
-              <td><button>Completed</button></td>
+              <td>Create HTML Page <span><input type="checkBox"></span></td>
+              <td>
+                  <div class="state-box red"></div>
+              </td>
             </tr>
             <tr>
-              <td>To be filled dynamically...</td>
-              <td>Unfinished</td>
-              <td><button>Completed</button></td>
-
+              <td>Walk the dog <span><input type="checkBox"></span></td>
+              <td><div class="state-box red"></div></td>
+            </tr>
+            <tr>
+              <td>Watch the match <span><input type="checkBox"></span></td>
+              <td><div class="state-box red"></div></td>
             </tr>
           </table>
     </main>
