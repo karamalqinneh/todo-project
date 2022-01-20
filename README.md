@@ -48,3 +48,14 @@ Update the project HTML structure and style it to match the specifications illus
   4.  Ask the user to confirm if he wants to skip the welcoming message.
   5.  Alert a welcoming message with the name of the user and the title Mr if the user is male and Ms if the user is female, and if the gender input is not correct alert the welcoming message without the title, according to the confirmation.
   6.  Continue working on the styling of the project.
+
+
+  ## Task Three 
+
+* What observations or questions do you have about what you’ve learned so far?
+
+  There no particular observations. 
+
+* How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+
+  It took me around 10 minutes to complete the task, This task is suppoesed to be done in less than 5 minutes.
