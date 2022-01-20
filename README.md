@@ -20,10 +20,12 @@ Am going to bulid the HTML structure of a two page app as illustrated in the wir
 Update the project HTML structure and style it to match the specifications illustrated in the wire frames below: 
 
 1. Home page wireframe: 
+  
   ![Home Page](./assets/homePage2.png)
 
 2. About page wireframe:
- ![About Page](./assets/aboutPage2.png) 
+ 
+  ![About Page](./assets/aboutPage2.png) 
 
 
 ## Task Two (Task Questions)
@@ -37,3 +39,12 @@ Update the project HTML structure and style it to match the specifications illus
   It took me around two hours to complete the task, I thought it would only take an hour because I'm familiar with some CSS concepts. 
 
 
+## Task Three Outline 
+ 1. Create javaScript file called app.js and link it with index.html.
+2. When the home page is running you will do the following requirements in app.js:
+  1.  Ask the user to enter his/her name as input.
+  2.  Ask the user to enter his/her gender as input. The answer should be either (male or female).
+  3.  Ask the user to enter his/her age as input and alert the user if the age is less than or equal to zero.
+  4.  Ask the user to confirm if he wants to skip the welcoming message.
+  5.  Alert a welcoming message with the name of the user and the title Mr if the user is male and Ms if the user is female, and if the gender input is not correct alert the welcoming message without the title, according to the confirmation.
+  6.  Continue working on the styling of the project.
