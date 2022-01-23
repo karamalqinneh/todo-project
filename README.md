@@ -59,3 +59,23 @@ Update the project HTML structure and style it to match the specifications illus
 * How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
 
   It took me around 10 minutes to complete the task, This task is suppoesed to be done in less than 5 minutes.
+
+
+## Task Four Outline
+
+1. As a user, I would like to answer more questions.So you should add new three (Yes/No) questions.
+2. If the input was empty consider the answer is "invalid" string.
+3. Consider putting all the answers into an array.
+4. traverse the array and print the items on the console.
+5. Confirm that your code is following the single responsibility rule. Each function should only do one thing.
+6. All functions and variables should have a meaningful name (use camelCase).
+
+## Task Four Observations 
+
+* What observations or questions do you have about what you’ve learned so far?
+
+  There no particular observations. 
+
+* How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+
+  It took me around 10 minutes to complete the task, This task is suppoesed to be done in less than 5 minutes.
